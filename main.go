@@ -1,5 +1,9 @@
 package main
 
-func main() {
+import (
+	"github.com/bwmarrin/discordgo"
+)
 
+func main() {
+	discord, err := discordgo.New("authentication token")
 }
